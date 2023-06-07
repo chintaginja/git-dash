@@ -1,0 +1,16 @@
+provider "aws" {
+         region = "us-east-1"
+         access_key = "AKIAZ6KNEFOTP4Z3QK4E"
+         secret_key = "AKIAZ6KNEFOTK3ADCZOO"
+}
+
+
+resource "aws_instance" "MyVM" {
+        ami = "ami-0889a44b331db0194"
+        instance_type = "t2.micro"
+        key_name = "mylinuxserver"
+        security_groups = [ "launch-wizard-15"]
+   tags = {
+       Name = "Myec2"
+}
+}
