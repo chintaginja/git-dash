@@ -1,0 +1,22 @@
+
+#!/bin/bash
+
+USERID=$(id -u)
+
+#check user is root or not 
+
+if [ $	USERID -ne 0]; then 
+  echo "you need to be root user to excute this script"
+   exit 2
+fi
+  
+yum instll git -y
+
+if [$? -ne 0]; then 
+
+if [ $? -ne 0 ]; then 
+   echo "previous command is failure"
+     edit 1
+else 
+  echo "Installing Git is success"
+fi
