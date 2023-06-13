@@ -1,0 +1,91 @@
+    GIT HUB COMMANDS
+	
+	git init= (to initilixe the git repo)
+	
+	git config --global user.name "surendar"= to create username
+	
+	git config --global user.email "surendarchintaginja1@gmail.com= to create useremail
+	
+	git config --list= to check list of users and emails
+	
+	git config --global --unset user.name = to delete user name
+	
+	git config --global --unset user.email= to delete user email
+	
+	git status= to check the status 
+	
+	touch= to create file
+	
+	mkdir=  to create directry
+	
+	ll= to check long list file
+	
+	ls= short list file
+	
+	cd= chang directry
+	
+	git add file= (workspace to staging)
+	
+	git reset head file= (staging to workspace)
+	
+	git reset --soft cid= (local to staging)
+	
+	git reset --mixed cid =(local to workspace)
+	
+	git reset --hard cid =(to delete commit log and commit file)
+	
+	git clone http://github.com/chintaginja= to clone the repo
+	
+	rm file = to delete a file
+	
+	git commit -m "comment"= to commit the file
+	
+	git push orgin repository url branch name= to push the file to repository 
+	
+	git pull orgin repository url branch name= to pull the file from repository
+	
+	git branch branch name= to create branch name
+	
+	git chckout branch name= to chenge from branch to another
+	
+	git merge branch name= to copy the file from one branch to another
+	
+	stash(stash memory)
+
+    stash means when you working different task.		 
+
+	git stash lish= it shows the list of the file
+
+	git stash save "label1"= to create the stash file
+
+	git stash show stash@{x}= to check the file
+
+	git stash show -p stash@{x}= its display the changess data aswell
+
+	
+
+	pop= works like cut-past
+
+	git stash pop stash@{x}= to cut the file from stash
+	
+	apply= works like copy-past
+
+	git stash apply stash@{x}= to copy the 
+	
+	drop= works like delete
+
+	git stash drop@{x}= to delete file from stash
+	
+	revert= to get back to previous 
+	
+	git rebase --continue
+	 
+	
+	
+	
+	
+	
+	
+	
+	
+	
